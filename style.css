@@ -351,6 +351,8 @@ h3{
 }
 .about-col img{
     width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 .about-col h1{
     padding-top: 0;
