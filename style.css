@@ -479,3 +479,11 @@ blog-right{
 #bca_header{
     bottom: 50px;
 }
+#bba img{
+    padding-left: 50%;
+}
+@media(max-width:700px){
+    #bba img{
+        padding-left: 0%;
+    }
+}
