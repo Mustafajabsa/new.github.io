@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nizam College</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="block.html">BLOCK</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>M.BA</h1>
+    </section>
+    <!------------Courses--------->
+    <section class="about-us">
+      <div class="row">
+        <div style="padding-top: 0px" class="course">
+          <h1>Only One Combination</h1>
+          <p>
+            “The MBA course is a management and marketing-focused academic
+            degree. It covers topics like organisational behaviour, marketing,
+            management principles, supply chain management, operations
+            management, and so on. MBA Admission 2022 is done through entrance
+            exams such as the CAT, MAT, XAT, GMAT, and so on”.
+          </p>
+        </div>
+        <div id="bba" class="about-col">
+          <img src="images/mba.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!------footer----->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        This college is an autonomous, constituent college of Osmania
+        University.<br />
+        It is located near Lal Bahadur Shastri Stadium in Hyderabad. Nizam
+        College was originally a palace of Fakhrul-ul-mulk II,<br />
+        a noble of Hyderabad.[4] Nizam College celebrated its centenary in 1987.
+        It was established in 1887 by the amalgamation of the Hyderabad School
+        (Noble School) and Madarsa-I-Aliya.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> By Mustafa Omer</p>
+    </section>
+    <!--java script section for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hidMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
